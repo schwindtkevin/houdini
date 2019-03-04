@@ -27,7 +27,7 @@ mailer:
   email: "support@comngood.com"
 
 cdn:
-  url: "https://comngood.org"
+  url: <%= ENV['CDN_URL']  || 'http://localhost:3000' %>
 
 payment_provider:
   stripe_connect: true
@@ -71,5 +71,5 @@ source_tokens:
 nonprofits_must_be_vetted: false
 
 api_domain:
-  url: "https://comngood.org"
+  url: <%= ENV['API_DOMAIN_URL']  || 'http://localhost:3000' %>
 
