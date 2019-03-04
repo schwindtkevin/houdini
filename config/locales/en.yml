@@ -153,32 +153,32 @@ en:
       nonprofit:
         name:
           label: "Organization Name"
-          placeholder: "Ending Poverty in the Fox Valley Inc."
+          placeholder: "American Charitable Trust, Inc."
         website:
           label: "Website URL"
-          placeholder: "http://www.endpovertyinthefoxvalleyinc.org"
+          placeholder: "http://americancharitabletrust.org/"
         email:
           label: "Org Email (public)"
-          placeholder: "contact@endpovertyinthefoxvalleyinc.org"
+          placeholder: "americancharitabletrust@gmail.com"
         phone:
           label: "Org Phone (public)"
           placeholder: "(555) 555-5555"
         city:
           label: "City"
-          placeholder: "Appleton"
+          placeholder: "Colorado Springs"
         state:
           label: "State"
-          placeholder: "WI"
+          placeholder: "CO"
         zip:
           label: "Zip Code"
-          placeholder: "54915"
+          placeholder: "80921"
       contact:
         name:
           label: "Your Name"
-          placeholder: "Penelope Schultz"
+          placeholder: "Tanya Schwindt"
         email:
           label: "Your Email (used for login)"
-          placeholder: "penelope@endpovertyinthefoxvalleyinc.org"
+          placeholder: "americancharitabletrust@gmail.com"
         password:
           label: "New Password"
         password_confirmation:
