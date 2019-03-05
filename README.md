@@ -135,6 +135,7 @@ contribute!
 - rake assets:precompile
 - if production: make sure memcached is running.
 
+`./run_production npm run build-all`
 
 ## Frontend
 
