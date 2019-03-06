@@ -19,12 +19,9 @@ aws:
   bucket: <%= ENV['S3_BUCKET_NAME'] %>
 
 mailer:
-  delivery_method: "sendmail"
-  address: "localhost"
-  port: 25
   host: "http://localhost"
-  default_from: "ComnGood Team <support@comngood.com>"
-  email: "support@comngood.com"
+  default_from: "ComnGood Team <support@comngood.org>"
+  email: "support@comngood.org"
 
 cdn:
   url: <%= ENV['CDN_URL']  || 'http://localhost:5000' %>

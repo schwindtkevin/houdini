@@ -1,0 +1,6 @@
+mailer:
+  host: "https://comngood.org"
+
+mailer:
+  delivery_method: "aws_ses"
+  host: "comngood.org"
