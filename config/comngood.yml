@@ -1,8 +1,8 @@
 # License: CC0-1.0
 general:
   name: ComnGood
-  logo: "logos/houdini_project_bug.svg"
-  logo_full: "logos/houdini_project_full.svg"
+  logo: "logos/ComnGoodLogo.png"
+  logo_full: "logos/ComnGoodLogo.png"
 
 default:
   image:

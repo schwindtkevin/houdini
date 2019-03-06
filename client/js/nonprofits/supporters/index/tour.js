@@ -51,7 +51,7 @@ var supporters_tour = new Tour({
 		{
 			orphan: true,
 			title: 'Need more help?',
-			content: "There are still more features in our CRM that we weren't able to cover on this tour, such as creating email templates and adding donate buttons to your supporter emails. If you want a walk-through of any features or have any questions or comments, please email support@commitchange.com. We're here to help."
+			content: "There are still more features in our CRM that we weren't able to cover on this tour, such as creating email templates and adding donate buttons to your supporter emails. If you want a walk-through of any features or have any questions or comments, please email support@comngood.org. We're here to help."
 		}
 	]
 })

@@ -53,8 +53,8 @@ en:
       failure: 'Could not sign you in from %{kind} because "%{reason}".'
     mailer:
       confirmation_instructions:
-        subject: "Welcome to CommitChange! Let's confirm your account."
+        subject: "Welcome to ComnGood! Let's confirm your account."
       reset_password_instructions:
-        subject: 'Change your password on CommitChange'
+        subject: 'Change your password on ComnGood'
       unlock_instructions:
-        subject: 'Account unlock instructions for CommitChange'
+        subject: 'Account unlock instructions for ComnGood'

@@ -21,7 +21,7 @@ function view(state) {
     style: {display: 'none'}
   }, [
     h('header.pane-header', [h('h3', 'Integrations')])
-  , h('p', 'Connect your CommitChange account with other apps to take advantage of integration features.')
+  , h('p', 'Connect your ComnGood account with other apps to take advantage of integration features.')
   , integrationSection(state, state.mailchimpKey$(), 'MailChimp', mailchimpConnectedMessage, mailchimpNotConnectedMessage)
   , h('br')
   ])

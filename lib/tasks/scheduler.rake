@@ -19,7 +19,7 @@ task :heroku_scheduled_job, [:name] => :environment do |t, args|
     end
   end
   GenericMailer.delay.admin_notice({
-    subject: "Scheduled job results on CommitChange for '#{job_name}'",
+    subject: "Scheduled job results on ComnGood for '#{job_name}'",
     body: results.empty? ? "No jobs to run today." : results
   })
 end

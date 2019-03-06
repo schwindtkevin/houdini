@@ -9,7 +9,7 @@ module QueryNonprofits
       Qexpr.new.select(
         "nonprofits.id",
         "nonprofits.stripe_account_id",
-        "'support@commitchange.com' AS email",
+        "'support@comngood.org' AS email",
         "'192.168.0.1' AS user_ip",
         "bank_accounts.name"
       ).from(:nonprofits)

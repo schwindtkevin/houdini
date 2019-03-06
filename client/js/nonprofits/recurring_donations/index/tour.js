@@ -28,7 +28,7 @@ var tour_subscribers = new Tour({
 		{
 			orphan: true,
 			title: 'Get fundraising!',
-			content: "Check back to this page to see your monthly total increase. Please contact support@commitchange.com if you have any questions."
+			content: "Check back to this page to see your monthly total increase. Please contact support@comngood.org if you have any questions."
 		}
 	]
 })

@@ -38,7 +38,7 @@ const root = state => {
 		h('hr'),
 		h('p', [
 			'If any of this looks incorrect, please contact: ',
-			h('a', {href: 'mailto:support@commitchange.com'}, 'support@commitchange.com')
+			h('a', {href: 'mailto:support@comngood.org'}, 'support@comngood.org')
 		])
 	])
 }

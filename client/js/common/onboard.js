@@ -129,19 +129,19 @@ const onboardWizard = state => {
 
 const pricingDetails = h('div.u-marginTop--15.u-padding--10.u-background--fog', [
   h('p', [
-    "CommitChange uses " 
+    "ComnGood uses " 
   , h('a.strong', {props: {href: 'https://www.stripe.com/', target :'_blank'}}, 'Stripe')
   , ' to process transactions. Stripe takes a '
   , h('strong', `${ENV.feeRate}% + ${ENV.perTransaction}¢`) 
   , ' processing fee on every transaction.'])
 , h('p', [
     'In order to support operations, feature development, and community building, '
-  , 'CommitChange takes an additional fee of ' 
+  , 'ComnGood takes an additional fee of ' 
   , h('strong', `${ENV.platformFeeRate}%.`) 
   ])
 , h('p.u-marginBottom--0', [
   "Our fee scales down as your transaction volume scales up. "
-, h('a.strong', {props: {href: 'mailto:support@commitchange.com'}}, 'Contact us')
+, h('a.strong', {props: {href: 'mailto:support@comngood.org'}}, 'Contact us')
 , " to chat about volume discounts."
   ])
 ])
@@ -215,7 +215,7 @@ const infoForm = state => {
       ])
     , h('div.u-marginBottom--20', [
         h('fieldset', [
-          h('label', 'How do you want to use CommitChange?')
+          h('label', 'How do you want to use ComnGood?')
         ])
       , h('fieldset', [
           h('input', {props: {type: 'checkbox', name: 'use_donations', id: 'onboard-use-donations'}})
@@ -235,7 +235,7 @@ const infoForm = state => {
         ])
       ])
     , h('fieldset', [
-        h('label', 'How did you hear about CommitChange?')
+        h('label', 'How did you hear about ComnGood?')
       , field(h('input', {props: {type: 'text', name: 'how_they_heard', placeholder: 'Google, radio, referral, etc'}}))
       ])
     , h('button.button', 'Next')

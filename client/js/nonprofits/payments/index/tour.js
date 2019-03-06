@@ -32,7 +32,7 @@ var transactions_tour = new Tour({
 		{
 			orphan: true,
 			title: 'Check back!',
-			content: "As your organization starts to receive donations and contributions and to sell event tickets, check back here to watch your pending balance increase. Please contact support@commitchange.com if you have questions."
+			content: "As your organization starts to receive donations and contributions and to sell event tickets, check back here to watch your pending balance increase. Please contact support@comngood.org if you have questions."
 		}
 	]
 })

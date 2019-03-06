@@ -11,14 +11,14 @@ describe FetchNonprofitEmail, pending: true do
 			expect(FetchNonprofitEmail.with_charge(charge)).to eq('nonprofit@someorg.org')
 		end
 
-		it "returns support@commitchange.com if Nonprofit email is blank" do
+		it "returns support@comngood.org if Nonprofit email is blank" do
 			charge.nonprofit.email = ""
-			expect(FetchNonprofitEmail.with_charge(charge)).to eq('support@commitchange.com')
+			expect(FetchNonprofitEmail.with_charge(charge)).to eq('support@comngood.org')
 		end
 
-		it "returns support@commitchange.com if Nonprofit email is nil" do
+		it "returns support@comngood.org if Nonprofit email is nil" do
 			charge.nonprofit.email = nil
-			expect(FetchNonprofitEmail.with_charge(charge)).to eq('support@commitchange.com')
+			expect(FetchNonprofitEmail.with_charge(charge)).to eq('support@comngood.org')
 		end
 
 	end

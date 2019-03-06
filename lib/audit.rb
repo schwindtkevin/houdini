@@ -45,7 +45,7 @@ module Audit
     return transfers
   end
 
-  # Given a list of Stripe transaction objects, see if any are missing on CommitChange
+  # Given a list of Stripe transaction objects, see if any are missing on ComnGood
   def self.find_missing_charges(transfers)
     transfers
       .map{|t| [t.source_transaction, t.amount]}

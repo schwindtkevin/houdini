@@ -124,7 +124,7 @@ Config.schema do
     optional(:stripe_proprietary_v2_js).filled(:bool?)
 
     # Whether you want to use Stripe Connect so that every nonprofit account to be
-    # associated account of a main Stripe account. (Like CommitChange)
+    # associated account of a main Stripe account. (Like ComnGood)
     # Default is false
     optional(:stripe_connect).filled(:bool?)
   end

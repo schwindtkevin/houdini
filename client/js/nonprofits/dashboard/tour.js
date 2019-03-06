@@ -24,7 +24,7 @@ var dashboard_tour = new Tour({
 	steps: [
 		{
 			orphan: true,
-			title: 'Welcome to CommitChange!',
+			title: 'Welcome to ComnGood!',
 			content: "This dashboard will give you a detailed overview of all of your fundraising activities.  As you begin to raise money through donations, contributions and ticket sales, this dashboard will show more helpful information."
 		},
 		{
@@ -56,7 +56,7 @@ var dashboard_tour = new Tour({
 		{
 			orphan: true,
 			title: "You're all set!",
-			content: "Check your inbox for an email confirmation link. We will verify your status as a nonprofit within 5-7 days. Contact support@commitchange.com if you have any questions. We're glad to have you on board!"
+			content: "Check your inbox for an email confirmation link. We will verify your status as a nonprofit within 5-7 days. Contact support@comngood.org if you have any questions. We're glad to have you on board!"
 		}
 	]
 })

@@ -153,7 +153,7 @@ commitchange.appendMarkup = () => {
       iframe.setAttribute('class', 'commitchange-iframe-embedded')
       commitchange.iframes.push(iframe)
     } else {
-      // Show the CommitChange-branded button if it's not set to custom.
+      // Show the ComnGood-branded button if it's not set to custom.
       if(!elem.hasAttribute('data-custom') && !elem.hasAttribute('data-custom-button')) {
         let btn_iframe = document.createElement('iframe')
         let btn_src = fullHost + "/nonprofits/" + nonprofitID + "/btn"

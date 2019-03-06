@@ -8,7 +8,7 @@ appl.def('update_card', function(form_obj) {
 		.send({stripe_card: form_obj})
 		.end(function(err, resp){
 			appl.def('loading', false)
-			if(!resp.ok) return appl.notify('Unable to update card. Please contact us at support@commitchange.com.')
+			if(!resp.ok) return appl.notify('Unable to update card. Please contact us at support@comngood.org.')
 			appl.notify('Card Updated!')
 		})
 })

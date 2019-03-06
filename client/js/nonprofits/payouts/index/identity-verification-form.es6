@@ -94,7 +94,7 @@ const normalDialog = state => {
   var body = h('div.modal-body', [
     h('p', 'Please complete this form to verify your identity. This information serves as an extra security measure to prevent fraud and is required by our payment processor to comply with KYC ("Know Your Customer") laws in the US.')
   , h('p', 'All information submitted through this form is 256-bit SSL encrypted and is kept completely private.')
-  , h('p', "This information can be entered by any 'account representative' at your organization; someone from your organization who is an administrator of your CommitChange account.")
+  , h('p', "This information can be entered by any 'account representative' at your organization; someone from your organization who is an administrator of your ComnGood account.")
   , h('hr')
   , h('button.button--large', { on: {click: [state.modalID$, 'verificationFormModal']} }, ["Let's do it ", h('i.fa.fa-arrow-right')])
   ])
@@ -222,7 +222,7 @@ const formView = state => {
 
   , h('hr')
   , h('p.finePrint.u-centered', [
-      'CommitChange processes payments using Stripe. By clicking "Submit" below, you agree to '
+      'ComnGood processes payments using Stripe. By clicking "Submit" below, you agree to '
     , h('a', {props: {target: '_blank', href: 'https://stripe.com/connect/account-terms'}}, "Stripe's  Connected Account Agreement.")
     ])
 

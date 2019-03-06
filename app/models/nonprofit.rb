@@ -29,7 +29,7 @@ class Nonprofit < ActiveRecord::Base
     :state_code_slug, #str
     :ein, # str: employee identification number
     :published, # boolean; whether to display this profile
-    :vetted, # bool: Whether a super admin (one of CommitChange's employees) have approved this org
+    :vetted, # bool: Whether a super admin (one of ComnGood's employees) have approved this org
     :verification_status, # str (either 'pending', 'unverified', 'escalated', 'verified' -- whether the org has submitted the identity verification form and it has been approved)
     :latitude, # float: geocoder gem
     :longitude, # float: geocoder gem

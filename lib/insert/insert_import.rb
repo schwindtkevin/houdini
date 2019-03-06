@@ -19,10 +19,10 @@ module InsertImport
     rescue Exception => e
       body = "Import failed. Error: #{e}"
       GenericMailer.generic_mail(
-        'support@commitchange.com', 'Jay Bot', # FROM
+        'support@comngood.org', 'Jay Bot', # FROM
         body,
         'Import error', # SUBJECT
-        'support@commitchange.com', 'Jay' # TO
+        'support@comngood.org', 'Jay' # TO
       ).deliver
     end
   end

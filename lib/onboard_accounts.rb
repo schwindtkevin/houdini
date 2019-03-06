@@ -129,9 +129,9 @@ module OnboardAccounts
     # Send the welcome email to the nonprofit
     NonprofitMailer.welcome(np['id']).deliver
     # Send an email notifying people internal folks of the new nonporfit, with the above info and extra_info
-    to_emails = ['support@commitchange.com']
+    to_emails = ['support@comngood.org']
     message = %Q(
-      New signup on CommitChange for an organization with the name "#{np['name']}"
+      New signup on ComnGood for an organization with the name "#{np['name']}"
       Location: #{np['city']} #{np['state_code']}, #{np['zip_code']}
       Org Email: #{nonprofit_data['email']}
       Org Phone: #{nonprofit_data['phone']}
@@ -143,6 +143,6 @@ module OnboardAccounts
       What they want to use: #{['use_donations', 'use_crm', 'use_campaigns', 'use_events'].select{|x| extra_info[x] == 'on'}.join(", ")}
     )
     subject = "New Account Signup: #{np['name']}"
-    GenericMailer.generic_mail('support@commitchange.com', 'CC Bot', message, subject, to_emails, '').deliver
+    GenericMailer.generic_mail('support@comngood.org', 'CC Bot', message, subject, to_emails, '').deliver
   end
 end
