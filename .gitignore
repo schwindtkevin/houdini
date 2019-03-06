@@ -2,7 +2,7 @@
 latest.dump
 node_modules
 npm-debug.log
-public/**/*
+# public/**/*
 client/js/nonprofits/donate/plugins-enabled
 
 
