@@ -99,6 +99,8 @@ graphics/recurring.svg: graphics/recurring-30abdcf48f823d77cabc7633682f1da0.svg
 graphics/recurring/index.svg: graphics/recurring-30abdcf48f823d77cabc7633682f1da0.svg
 graphics/white-radial.png: graphics/white-radial-b8fa087dac56360dee9837d40c50fb4c.png
 graphics/white-radial/index.png: graphics/white-radial-b8fa087dac56360dee9837d40c50fb4c.png
+logos/ComnGoodLogo.png: logos/ComnGoodLogo-6c26c395c1597250c17cf1ae5785e32a.png
+logos/ComnGoodLogo/index.png: logos/ComnGoodLogo-6c26c395c1597250c17cf1ae5785e32a.png
 logos/houdini_project_border_64.svg: logos/houdini_project_border_64-f1de5a85dd520a35b6f8d5e4874536d1.svg
 logos/houdini_project_border_64/index.svg: logos/houdini_project_border_64-f1de5a85dd520a35b6f8d5e4874536d1.svg
 logos/houdini_project_bug.svg: logos/houdini_project_bug-460b8f7ee1ee20826a58d13fd1a4ae95.svg
