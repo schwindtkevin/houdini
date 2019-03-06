@@ -50,6 +50,7 @@ config/environments/*.local.yml
 javascripts/api
 
 # thing we want to keep in public
+!public/**/*
 !public/*.html
 !public/maintenance.html
 !public/favicon.ico
