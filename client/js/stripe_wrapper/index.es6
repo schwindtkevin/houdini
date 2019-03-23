@@ -40,6 +40,7 @@ class TokenizerWrapper {
             headers: {
                 'Authorization': auth,
                 'Accept': 'application/json',
+                'Stripe-Version': '2015-04-07',
                 'Content-Type': 'application/x-www-form-urlencoded'},
             method: 'POST',
             data: obj

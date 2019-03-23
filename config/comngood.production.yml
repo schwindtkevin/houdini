@@ -1,6 +1,6 @@
 mailer:
-  host: "https://comngood.org"
+  host: "https://nonprofits.comngood.org"
 
 mailer:
   delivery_method: "aws_ses"
-  host: "comngood.org"
+  host: "nonprofits.comngood.org"

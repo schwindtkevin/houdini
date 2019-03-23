@@ -30,7 +30,7 @@ payment_provider:
   stripe_connect: true
   stripe_public_key: <%= ENV['STRIPE_API_PUBLIC'] %>
   stripe_private_key: <%= ENV['STRIPE_API_KEY'] %>
-  stripe_proprietary_v2_js: true
+  stripe_proprietary_v2_js: false
 
 default_bp:
   id: 1
